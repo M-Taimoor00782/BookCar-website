@@ -4,6 +4,8 @@
     #navbar {
         padding: 40px;
         background-color: #000;
+        position: fixed;
+        z-index: 1;
     }
 
     #navbar.nav_bar {
