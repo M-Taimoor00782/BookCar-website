@@ -7,7 +7,7 @@ window.addEventListener('scroll', () => {
     const navMenu = document.querySelector('#nav-ul');
     const menuBar = document.querySelector('.ham_burger');
 
-    if (window.scrollY > 150) {
+    if (window.scrollY > 100) {
         navBar.classList.add('nav_bar');
         logoText.style.color = 'black';
         active.style.color = '#1089ff';
