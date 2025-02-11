@@ -5,6 +5,7 @@
         padding: 40px;
         background-color: #000;
         position: fixed;
+        top: 0;
         z-index: 1;
     }
 
