@@ -7,7 +7,7 @@ window.addEventListener('scroll', () => {
     const navMenu = document.querySelector('#nav-ul');
     const menuBar = document.querySelector('.ham_burger');
 
-    if (window.scrollY > 200) {
+    if (window.scrollY > 150) {
         navBar.classList.add('nav_bar');
         logoText.style.color = 'black';
         active.style.color = '#1089ff';
@@ -67,8 +67,9 @@ menu.addEventListener('click', () => {
 
 document.addEventListener("DOMContentLoaded", function () {
     const playButton = document.querySelector('.video_icon');
-    const palyVideo = document.querySelector('.video_box');
+    const palyVideo  = document.querySelector('.video_box');
     const closeVideo = document.querySelector('.close');
+    const puseVideo  = document.querySelector('.pause');
 
     playButton.addEventListener("click", () => {
         palyVideo.classList.toggle('video_box');
@@ -78,6 +79,9 @@ document.addEventListener("DOMContentLoaded", function () {
     closeVideo.addEventListener("click", () => {
         palyVideo.classList.toggle('mp4');
         palyVideo.classList.toggle('video_box');
+        if(puseVideo){
+            puseVideo.pause();
+        }
     });
 });
 
