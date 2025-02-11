@@ -1,0 +1,621 @@
+@media (max-width: 990px) {
+
+    /* ----navbar----- */
+    #navbar {
+        padding: 40px;
+        background-color: #000;
+    }
+
+    #navbar.nav_bar {
+        padding: 40px;
+    }
+
+    #nav-ul {
+        width: 100%;
+        position: absolute;
+        left: 0;
+        top: -800px;
+        height: 350px;
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+        background: #000;
+        padding: 10px 40px;
+        transition: 0.3s ease;
+    }
+
+    #nav-ul li a {
+        font-size: 1.4rem;
+    }
+
+    .ham_burger {
+        display: flex;
+    }
+
+    /* ----main section------ */
+    #main {
+        background-position: top center;
+        height: 100vh;
+    }
+
+    .main_text {
+        width: 100vw;
+    }
+
+    .main_text h1 {
+        font-size: 3rem;
+        padding: 3px 40px;
+    }
+
+    .video_section {
+        width: 100vw;
+    }
+
+    .video_icon {
+        width: 80px;
+        height: 80px;
+    }
+
+    .video_icon i {
+        font-size: 3rem;
+    }
+
+    .video-details p {
+        width: 50vw;
+        font-size: 1.5rem;
+    }
+
+    .mp4{
+        top: 17rem;
+    }
+
+    /* -----car sectiom------ */
+
+    #rent_car {
+        min-width: 750px;
+        padding: 0px;
+    }
+
+    #rent_car .book_car {
+        width: 35%;
+        height: 50vh;
+        padding: 15px;
+        margin-top: -8rem;
+    }
+
+    .date {
+        gap: 10px;
+    }
+
+    .pick_date input,
+    .drop_date input {
+        width: 100px;
+    }
+
+    .book_car h3 {
+        font-size: 1.8rem;
+        font-weight: 400;
+    }
+
+    #rent_car .choose_car {
+        /* margin-top: -10%; */
+        width: 60%;
+        height: 42vh;
+        padding: 0px 40px;
+
+    }
+
+    .location_icon,
+    .select_icon,
+    .reserve_icon {
+        width: 80px;
+        height: 80px;
+    }
+
+    .choose_car .box {
+        gap: 15px;
+    }
+
+    .box_button button {
+        padding: 15px 20px;
+    }
+
+    /* car offer section */
+
+    #car_offers {
+        padding-top: 80px;
+    }
+
+    .image_box {
+        min-width: 350px;
+        width: 100%;
+    }
+
+    .about_details-box {
+        min-width: 650px;
+        width: 60%;
+        border-radius: 4px;
+        padding: 60px 4rem;
+        padding-left: 10rem;
+    }
+
+    .about_image-box {
+        width: 430px;
+        left: -22rem;
+    }
+
+    .about_image-box img {
+        height: 55vh;
+        object-fit: cover;
+        object-position: left;
+    }
+
+    /* service section */
+    .services_box {
+        padding: 20px 2rem;
+        gap: 20px;
+    }
+
+    .services_bg-img {
+        height: 450px;
+    }
+
+    .box_container {
+        transform: translate(14%, 50%);
+    }
+
+    .details_box_container h2 {
+        padding: 10px 24px;
+        color: #000000ed;
+    }
+
+    .service_container-button {
+        padding: 24px;
+    }
+
+    .service_container-button button {
+        padding: 10px 16px;
+        font-size: 1.4rem;
+    }
+
+    .service_container-button button:hover {
+        font-weight: 600;
+        color: #fff;
+    }
+
+    /* review section */
+
+    .review_box {
+        min-width: 350px;
+        width: 100%;
+    }
+
+    /* blog section */
+
+    .blog_container {
+        gap: 20px;
+    }
+
+    .blog_box {
+        min-width: 230px;
+        width: 230px;
+    }
+
+    .blog_box img {
+        height: 200px;
+    }
+
+    .experience_container {
+        margin-top: 5rem;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .experience_box {
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    .experience_year {
+        background-color: transparent;
+        width: none;
+    }
+
+
+    /* footer section */
+    .footer-main_box {
+        grid-template-columns: 1fr 1fr;
+        padding: 4rem 2rem;
+        gap: 20px 40px;
+    }
+
+    .icon_social-box {
+        width: 45px;
+        height: 45px;
+    }
+
+    .icon_social-box i {
+        font-size: 2rem;
+    }
+
+    /* about page */
+
+    #main_about {
+        background-position: top center;
+    }
+
+    /* princing page */
+    .pricing_container {
+        max-width: 720px;
+    }
+
+    /* car page */
+    .car_container .car_img-box{
+        max-width: 300px !important;
+        width: 100% !important;
+    }
+
+    /* blog page */
+
+    .blog_box_container {
+        max-width: 700px;
+    }
+
+    /* contact page */
+
+    #contact_container {
+        padding: 40px;
+        min-width: 750px;
+    }
+
+    .location_box {
+        max-width: 720px;
+    }
+
+    #location_container iframe {
+        height: 50vh;
+    }
+
+    /* car_detaila page */
+    .form_container {
+        max-width: 700px;
+    }
+
+    .form_container form {
+        justify-content: center;
+        gap: 20px;
+    }
+
+    .form-group {
+        max-width: 600px;
+    }
+
+    /* car info page */
+    .car-details-info {
+        gap: 40px;
+        max-width: 800px;  
+    }
+
+}
+
+@media (max-width:477px) {
+
+    /* navBar section  */
+    #navbar {
+        padding: 40px 20px;
+    }
+
+    .ham_burger {
+        margin-right: 0rem;
+    }
+
+    #navbar.nav_bar {
+        padding: 40px 20px;
+    }
+
+    /* main section */
+
+    #main {
+        height: 130vh;
+    }
+
+    .main_text h1 {
+        font-size: 2.5rem;
+        padding: 3px 10px;
+        text-align: center;
+    }
+
+    .main_text p {
+        padding: 10px;
+        font-size: 1rem;
+    }
+
+    .video-details p {
+        width: 70vw;
+        font-size: 1.1rem;
+    }
+
+    .video_icon {
+        width: 60px;
+        height: 60px;
+    }
+
+    .video_icon i {
+        font-size: 2rem;
+    }
+
+    .mp4{
+        top: 20rem;
+        max-width: 350px;
+    }
+
+    /* rent car section */
+
+    #rent_car {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        min-width: 350px;
+    }
+
+    #rent_car .book_car {
+        width: 90%;
+        height: 100%;
+        padding: 15px;
+    }
+
+    .pick_date input,
+    .drop_date input {
+        width: 140px;
+    }
+
+    #rent_car .choose_car {
+        margin-top: 1%;
+        width: 90%;
+        height: 100%;
+        padding: 20px 10px;
+        align-items: center;
+    }
+
+    .choose_car .box {
+        flex-direction: column;
+    }
+
+    .choose_car h1 {
+        font-size: 1.8rem;
+    }
+
+    /* car offer section */
+
+    #car_offers {
+        padding: 40px 10px;
+    }
+
+    #car_offers h1 {
+        font-size: 2.4rem;
+        text-align: center;
+    }
+
+    .image_box {
+        min-width: 280px;
+        width: 100%;
+    }
+
+    .image_box img {
+        height: 260px;
+    }
+
+    .about_details-box {
+        min-width: 280px;
+        width: 100%;
+        border-radius: 4px;
+        padding: 30px 3rem;
+        padding-left: 1rem;
+    }
+
+    .about_image-box {
+        max-width: 500px;
+        width: 100%;
+        left: -1rem;
+        position: relative;
+    }
+
+    .about_image-box img {
+        object-position: 60%;
+    }
+
+    .about_details-box h3 {
+        padding: 20px 0px 0px 0px;
+    }
+
+    .about_details-box h1 {
+        padding: 8px 0px 0px 0px;
+        font-size: 2rem;
+        font-weight: 500;
+    }
+
+    .about_details-box p {
+        font-size: 0.9rem;
+    }
+
+    .about_button {
+        margin: 10px 0px;
+    }
+
+    /* service section */
+
+    .services_box {
+        flex-wrap: wrap;
+    }
+
+    #book_car-services h1 {
+        font-size: 2.4rem;
+    }
+
+    .service_details h1 {
+        font-size: 1.5rem !important;
+    }
+
+    .services_bg-img {
+        background-position: 90% 10%;
+    }
+
+    .ovrley {
+        display: none;
+        top: -120px;
+        left: -74px;
+    }
+
+    .details_box_container {
+        max-width: 90%;
+    }
+
+    .box_container {
+        transform: translate(0%, 50%);
+    }
+
+    .details_box_container h2 {
+        padding: 2px 0px;
+        color: #000000ed;
+    }
+
+    .review_box {
+        min-width: 280px;
+        width: 100%;
+    }
+
+    /* blog section */
+
+    .blog_container {
+        flex-direction: column;
+    }
+
+    #blog-book_car {
+        padding-top: 20px;
+        margin-top: 20px;
+    }
+
+    .blog_box {
+        min-width: 320px;
+    }
+
+    .experience_container {
+        height: 420px;
+    }
+
+    .experience_box {
+        justify-content: flex-start;
+        gap: 10px;
+    }
+
+    .experience_year {
+        width: fit-content;
+        padding: 0px 30px;
+        gap: 30px;
+    }
+
+    .cars_total {
+        gap: 20px;
+    }
+
+    /* footer section */
+
+    .footer-main_box {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .copy_right {
+        padding: 0px 30px;
+    }
+
+    .copy_right p {
+        font-size: 0.5rem;
+        text-align: center;
+    }
+
+    /* about page  */
+
+    #main_about {
+        background-position: 60%;
+    }
+
+    .about_us h1 {
+        font-size: 2rem;
+    }
+
+
+    /* car page */
+    .car_container .car_img-box{
+        max-width: 350px !important;
+        width: 100% !important;
+    }
+
+    .page_numbers {
+        padding: 40px 0px;
+    }
+
+    /* blog page */
+    .blog_box_container {
+        max-width: 400px;
+    }
+
+    .blog_box_container h2 {
+        font-size: 1.1rem;
+        text-align: center;
+    }
+
+    .blog_box_container .blog_text {
+        padding: 0px 0rem;
+    }
+
+    /* contact page */
+
+    #contact_container {
+        padding: 40px 10px;
+        min-width: 350px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact_information-box {
+        max-width: 370px;
+    }
+
+    .address_box {
+        padding: 15px;
+    }
+
+    .contact_input-box {
+        min-width: 370px;
+        padding: 15px;
+    }
+
+    .location_box {
+        max-width: 380px;
+    }
+
+    #location_container {
+        padding: 10px 0px;
+        margin-bottom: 2rem;
+    }
+
+    #location_container iframe {
+        height: 40vh;
+    }
+
+    /* car_details page */
+    .form_container {
+        max-width: 350px;
+    }
+
+    /* car info page */
+    #car_info {
+        padding: 50px 10px;
+    }
+
+    .car-details-info {
+        max-width: 350px;
+    }
+}
