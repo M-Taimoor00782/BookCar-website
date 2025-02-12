@@ -12,24 +12,27 @@ window.addEventListener('scroll', () => {
         logoText.style.color = 'black';
         active.style.color = '#1089ff';
         menuBar.style.color = 'black';
-
-        if (window.innerWidth < 990) {
-            navMenu.style.background = 'white';
-        } else {
-            navMenu.style.background = 'transparent';
-        }
     }
     else {
         navBar.classList.remove('nav_bar');
         logoText.style.color = 'white';
         active.style.color = '#00c951';
         menuBar.style.color = '#ffffffa8';
+    }
+});
 
-        if (window.innerWidth < 990) {
-            navMenu.style.background = 'black';
+window.addEventListener('resize', () => {
+    const navMenu = document.querySelector('#nav-ul');
+
+    if (window.innerWidth < 990) {
+        if (window.scrollY > 200) {
+            navMenu.style.background = 'white';
         } else {
-            navMenu.style.background = 'transparent';
+            navMenu.style.background = 'black';
         }
+    }
+    else {
+        navMenu.style.background = 'transparent';
     }
 });
 
@@ -67,9 +70,9 @@ menu.addEventListener('click', () => {
 
 document.addEventListener("DOMContentLoaded", function () {
     const playButton = document.querySelector('.video_icon');
-    const palyVideo  = document.querySelector('.video_box');
+    const palyVideo = document.querySelector('.video_box');
     const closeVideo = document.querySelector('.close');
-    const puseVideo  = document.querySelector('.pause');
+    const puseVideo = document.querySelector('.pause');
 
     playButton.addEventListener("click", () => {
         palyVideo.classList.toggle('video_box');
@@ -79,7 +82,7 @@ document.addEventListener("DOMContentLoaded", function () {
     closeVideo.addEventListener("click", () => {
         palyVideo.classList.toggle('mp4');
         palyVideo.classList.toggle('video_box');
-        if(puseVideo){
+        if (puseVideo) {
             puseVideo.pause();
         }
     });
