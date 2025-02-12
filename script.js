@@ -12,29 +12,40 @@ window.addEventListener('scroll', () => {
         logoText.style.color = 'black';
         active.style.color = '#1089ff';
         menuBar.style.color = 'black';
+        if (window.innerWidth < 990) {
+            if (window.scrollY > 200) {
+                navMenu.style.background = 'white';
+            } 
+            else {
+                navMenu.style.background = 'black';
+            }
+        }
+        else {
+            navMenu.style.background = 'transparent';
+        }
     }
     else {
         navBar.classList.remove('nav_bar');
         logoText.style.color = 'white';
         active.style.color = '#00c951';
         menuBar.style.color = '#ffffffa8';
-    }
-});
-
-window.addEventListener('resize', () => {
-    const navMenu = document.querySelector('#nav-ul');
-
-    if (window.innerWidth < 990) {
-        if (window.scrollY > 200) {
-            navMenu.style.background = 'white';
-        } else {
-            navMenu.style.background = 'black';
+        if (window.innerWidth < 990) {
+            if (window.scrollY < 200) {
+                navMenu.style.background = 'black';
+            } 
+            else {
+                navMenu.style.background = 'white';
+            }
         }
+        else {
+            navMenu.style.background = 'transparent';
+        }
+
     }
-    else {
-        navMenu.style.background = 'transparent';
-    }
+
 });
+
+
 
 window.addEventListener('resize', () => {
     const navMenu = document.querySelector('#nav-ul');
