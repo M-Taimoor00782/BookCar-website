@@ -101,7 +101,6 @@
     }
 
     #rent_car .choose_car {
-        /* margin-top: -10%; */
         width: 60%;
         height: 42vh;
         padding: 0px 40px;
@@ -167,13 +166,17 @@
         transform: translate(14%, 50%);
     }
 
+    .details_box_container {
+        max-width: 60%;
+      }
+
     .details_box_container h2 {
-        padding: 10px 24px;
-        color: #000000ed;
+        padding: 10px 0px;
+        color: #fff;
     }
 
     .service_container-button {
-        padding: 24px;
+        padding: 10px 0px;
     }
 
     .service_container-button button {
@@ -418,9 +421,8 @@
     }
 
     .about_image-box {
-        max-width: 500px;
-        width: 100%;
-        left: -1rem;
+        min-width: 450px;
+        left: -3.3rem;
         position: relative;
     }
 
@@ -462,6 +464,7 @@
 
     .services_bg-img {
         background-position: 90% 10%;
+        height: 500px;
     }
 
     .ovrley {
@@ -471,16 +474,16 @@
     }
 
     .details_box_container {
-        max-width: 90%;
+        max-width: 80%;
     }
 
     .box_container {
-        transform: translate(0%, 50%);
+        transform: translate(0%, 30%);
     }
 
     .details_box_container h2 {
         padding: 2px 0px;
-        color: #000000ed;
+        color: #fff;
     }
 
     .review_box {
